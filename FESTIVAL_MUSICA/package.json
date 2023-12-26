@@ -1,0 +1,26 @@
+{
+  "name": "festival_musica",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp, SASS y HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TinchoPombo/portfolio.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Martin Pombo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TinchoPombo/portfolio/issues"
+  },
+  "homepage": "https://github.com/TinchoPombo/portfolio#readme",
+  "devDependencies": {
+    "sass": "^1.69.5"
+  }
+}
