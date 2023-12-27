@@ -4,7 +4,11 @@
   "description": "Proyecto con Gulp, SASS y HTML",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp dev",
+    "css": "gulp css",
+    "js": "gulp js",
+    "conversionImagenes": "gulp conversionImagenes"
   },
   "repository": {
     "type": "git",
@@ -21,6 +25,17 @@
   },
   "homepage": "https://github.com/TinchoPombo/portfolio#readme",
   "devDependencies": {
+    "cssnano": "^6.0.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-avif": "^1.1.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser-js": "^5.2.2",
+    "gulp-webp": "^4.0.1",
+    "postcss": "^8.4.32",
     "sass": "^1.69.5"
   }
 }
